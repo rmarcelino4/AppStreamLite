@@ -35,7 +35,7 @@ if not st.session_state.auth_ok:
 
 # ── CONFIGURAÇÃO DA PÁGINA ───────────────────────────────────────────────────
 st.set_page_config(
-    page_title="FPF · Análise UEFA Pro",
+    page_title="FPF · UEFA Pro _ Março 2026",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -124,11 +124,11 @@ TEXT   = T["TEXT"]
 POLARITY_LABEL = {"bom": "✚ BOM", "mau": "✖ MAU"}
 
 MATCH_COLORS = {
-    "POR-HUN": GREEN,
-    "POR-TUR": BLUE,
-    "POR-GEO": GOLD,
-    "POR-SVN": ORANGE,
-    "POR-FRA": RED,
+    "HUN-POR": GREEN,
+    "IRL-POR": BLUE,
+    "POR-ARM": GOLD,
+    "POR-HUN": ORANGE,
+    "POR-IRL": RED,
 }
 
 alt.themes.register(
