@@ -241,7 +241,7 @@ def explode_players(df):
 
 # ── SIDEBAR ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown(f"<h1 style='font-size:1.1rem; color:{GOLD};'>⚽ FPF · UEFA Pro<br>Quiaios 2026</h1>",
+    st.markdown(f"<h1 style='font-size:1.1rem; color:{GOLD};'>⚽ FPF · UEFA Pro<br>Março 2026</h1>",
                 unsafe_allow_html=True)
     st.markdown("---")
 
