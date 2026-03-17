@@ -76,7 +76,7 @@ THEMES = {
 style_choice = st.sidebar.selectbox(
     "Estilo de visualização",
     ["Escuro", "Claro"],
-    index=0,
+    index=1,
     key="style_choice",
 )
 
